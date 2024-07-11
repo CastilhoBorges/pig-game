@@ -35,6 +35,7 @@ const switchPlayer = function () {
   player1El.classList.toggle("player--active");
 };
 
+// Botão de jogar o dado 
 btnRoll.addEventListener("click", () => {
   // Aleatoriedade do Dado
   const randomDice = Math.trunc(Math.random() * 6) + 1;
