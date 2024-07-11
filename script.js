@@ -83,7 +83,7 @@ btnHold.addEventListener("click", () => {
     /*
     Condição que defini se o jogador ganhou de acordo com seu score, com isso o estado do jogo vai para false e a parte do jogador que ganhou fica com um display diferente
     */
-    if (scores[activePlayer] >= 5) {
+    if (scores[activePlayer] >= 100) {
       diceEl.classList.add("hidden");
       gameState = false;
 
