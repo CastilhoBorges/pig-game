@@ -93,6 +93,7 @@ btnHold.addEventListener("click", () => {
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.remove(".player--active");
+
     } else {
       // Caso ele so salve a pontuação e esteja abaixo do numeor ele muda o player
       switchPlayer();
